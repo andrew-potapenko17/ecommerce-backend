@@ -30,10 +30,10 @@ SECRET_KEY = 'django-insecure-ad@7m)kwba8z*s18&bcdda4svkl1t5-rq#p#g(zxtpm-wqe$i=
 DEBUG = True
 
 '''ALLOWED_HOSTS = ["handclasp-viewable-unsightly.ngrok-free.dev", "127.0.0.1"]
-CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1","https://handclasp-viewable-unsightly.ngrok-free.dev"]'''
+CSRF_TRUSTED_ORIGINS = ["https://ecommerce-backend-production-2ac0.up.railway.app"]'''
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ["https://ecommerce-backend-production-2ac0.up.railway.app"]
 # Application definition
 
 INSTALLED_APPS = [
